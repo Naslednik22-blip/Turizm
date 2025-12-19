@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Кузнец путешествий</title>
+        <link rel="stylesheet" href="css/styles2.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="container">
+                <span class="logo">КУЗНЕЦ ПУТЕШЕСТВИЙ</span>
+                <nav>
+                    <ul>
+                        <li class="button"><a href="index.html">Главная страница</a></li>
+                        <li class="active"><a href="visit.html">Ваше путешествие</a></li>
+                        <li class="button"><a href="reg.html">Регистрация</a></li>
+                        <li class="button"><a href="login.html">Войти</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <hr>
+            <div class="journey">
+                <div class="form">
+                <div class="group2">
+                <div class="form-group">
+                    <label for="city">Город, который собираетесь посетить:</label>
+                
+                    <select id="city" name="city">
+                        <option value="" disabled selected>Выберите вариант</option>
+                        <option value="#">Cyздаль</option>
+                        <option value="#">Коломна</option>
+                    </select>
+                    
+                </div>
+                <div class="form-group">
+                    <label for="data1">Выберите дату приезда:</label>
+                    <input type="date" id="data1" >
+                    <label for="days">Сколько дней будете в городе:</label>
+                    <input type="number" id="days" min="1">
+                </div>
+                </div>
+                
+                <div class="group1">
+                <div class="form-group">
+                    <label for="traveler">Кто путешествует:</label>
+                    
+                    <select id="traveler" name="treveler">
+                        <option value="" disabled selected>Выберите вариант</option>
+                        <option value="#">Один человек</option>
+                        <option value="#">Пара людей</option>
+                        <option value="#">Компания друзей</option>
+                        <option value="#">Семья с детьми</option>
+                    </select>
+                    
+                </div>
+                
+                <div class="form-group">
+                    <label for="temp">Темп вашего путешествия:</label>
+                    
+                    <select id="temp" name="treveler">
+                        <option value="" disabled selected>Выберите вариант</option>
+                        <option value="#">Спокойный</option>
+                        <option value="#">Стандартный</option>
+                        <option value="#">Интенсивный</option>
+                    </select>
+                   
+                </div>
+                </div>
+                <div class="form-group interests">
+                    <h4>Ваши предпочтения:</h4>
+                    <div class="interests">
+                    
+                    <label for="hstr">
+                    <input type="checkbox" id="hstr" >
+                    История и архитектура
+                    </label>
+                    </div>
+                    
+                    <div class="interests">
+                    
+                    <label for="art">
+                    <input type="checkbox" id="art">
+                    Иcкуство(музеи, галереи)
+                    </label>
+                    </div>
+                    
+                    <div class="interests">
+                    
+                    <label for="food">
+                    <input type="checkbox" id="food">
+                    Гастрономия и бары
+                    </label>
+                    </div>
+                    
+                    <div class="interests">
+                    
+                    <label for="nature">
+                    <input type="checkbox" id="nature">
+                    Природа и парки
+                    </label>
+                    </div>
+                    
+                    <div class="interests">
+                    
+                    <label for="night">
+                    <input type="checkbox" id="night">
+                    Ночная жизнь и развлечения
+                    </label>
+                    </div>
+                    
+                    <div class="interests">
+                   
+                    <label for="rlg">
+                     <input type="checkbox" id="rlg">
+                     Религиозные объекты
+                     </label>
+                    </div>
+                    
+                    <div class="interests">
+                    
+                    <label for="sport">
+                    <input type="checkbox" id="sport">
+                    Спорт и активный отдых
+                    </label>
+                    </div>
+                    
+                    
+                </div>
+                <input type="submit" value="Создать план"> 
+                  
+                </div>    
+            </div>
+
+        </div>
+       
+        <footer>
+        
+            <div class="blocks container">
+            <div>
+                <span class="logo">КУЗНЕЦ ПУТЕШЕСТВИЙ</span>
+                    <p>Мы поможем вам спланировать ваше лучшее путешествие по нашей необъятной родине</p>
+        </div>
+                
+            <div>
+                <h4>Контакты</h4>
+                 <ul>
+                        <li>+7(999)999-99-99</li>
+                         <li>kuznec777@mail.ru</li>
+                         <li>г.Москва, ул.Ленина, д.1</li>
+                </ul>
+             </div>
+        </div>
+            <hr>
+            <p>Работаем с 2025г.</p>
+    </footer>
+        
+        
+        
+        
+        
+    </body>
+</html>
